@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    opet,
     tesla,
     shopify,
     carrent,
@@ -116,16 +116,15 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Estudande de ADS",
+      company_name: "Opet",
+      icon: opet,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Fevereiro 2023 - Julho 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "No momento estou estudando na UniOpet no 4 período do curso de Análise e Desenvolvimento de Sistemas.",
+        "Lá dentro aprendi conceitos de POO, Database explorei a diversidade das tecnologias de back quanto de front.",
+        "Algumas delas são C, PHP, Java, HTML/CSS e SQL para banco de dados."
       ],
     },
     {
@@ -134,32 +133,6 @@ import {
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
