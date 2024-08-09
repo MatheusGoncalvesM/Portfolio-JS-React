@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    opet,
+    starbucks,
     tesla,
     shopify,
     carrent,
@@ -73,28 +73,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -105,10 +85,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,28 +92,29 @@ import {
   
   const experiences = [
     {
-      title: "Estudande de ADS",
-      company_name: "Opet",
-      icon: opet,
-      iconBg: "#383E56",
+      title: "Estudante de ADS",
+      company_name: "UniOpet",
+      icon: starbucks,
+      iconBg: "#2E6F40",
       date: "Fevereiro 2023 - Julho 2025",
       points: [
         "No momento estou estudando na UniOpet no 4 período do curso de Análise e Desenvolvimento de Sistemas.",
-        "Lá dentro aprendi conceitos de POO, Database explorei a diversidade das tecnologias de back quanto de front.",
-        "Algumas delas são C, PHP, Java, HTML/CSS e SQL para banco de dados."
+        "Lá dentro aprendi conceitos de POO, Database e explorei a diversidade das tecnologias tanto de backend, quanto de frontend.",
+        "Algumas delas são C, PHP, Java, HTML/CSS e SQL para banco de dados.",
+        "Bem como conceitos de arquiteturas de sistemas, com foco em SOLID."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Python e Django",
+      company_name: "Python",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Junho 2024 - Agosto 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Desenvolvimento de aplicações web com Python e Django, focando em funcionalidades robustas e escaláveis.",
+        "Criação de um E-commerce/Agenda, aplicando conhecimentos de banco de dados, autenticação de usuários e CRUD.",
+        "Resolução de problemas através de exercícios práticos, aprimorando lógica de programação e habilidades de debugging.",
+        "Uso de Python para automação de tarefas, aumentando a eficiência e produtividade em projetos pessoais.",
       ],
     },
   ];
