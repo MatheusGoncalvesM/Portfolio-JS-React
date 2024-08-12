@@ -17,9 +17,47 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const {  name, value } = e.target;
+
+    setForm({ ...form, [name]: value })
+  }
   
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+//template_5afsytf
+//service_qxcy1un
+//LkX4oPgT1Hc1UG-E7
+    emailjs.send(
+      "service_qxcy1un", 
+      "template_5afsytf",
+    {
+        from_name: form.name,
+        to_name: "Matheus",
+        from_email: form.email,
+        to_email: "matheusmachado2005@hotmail.com",
+        message: form.message,
+    },
+    "LkX4oPgT1Hc1UG-E7"
+    )
+    .then(() => {
+      setLoading(false);
+      alert("Obrigado. Eu entrarei em contato assim que possível!");
+
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      })
+    }, (error) => {
+      setLoading(false)
+
+      console.log(error);
+
+      alert("Aconteceu algo de errado.")
+    })
+  }
 
   return (
     <div className={`xl:mt-12 xl:flex-row 
@@ -86,7 +124,7 @@ const Contact = () => {
             w-fit text-white font-bold shadow-md shadow-primary
             rounded-xl"
           >
-            {loading ? "Enviando..." : "Enviado"}
+            {loading ? "Enviando..." : "Enviar"}
           </button>
         </form>
 
